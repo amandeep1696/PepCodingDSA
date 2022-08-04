@@ -2,7 +2,7 @@ package functionsandarray;
 
 import java.util.Scanner;
 
-public class IntroductionToFunctions {
+public class A01IntroductionToFunctions {
     public static int getFactorial (int num) {
         int factorial = 1;
 
