@@ -3,6 +3,30 @@ package patterns;
 import java.util.Scanner;
 
 public class A22PatternInvertedHourGlass {
+    /*
+    1. You are given a number n.
+      2. You've to write code to print the pattern given in output format below
+Constraints
+1 <= n <= 15
+ Also, n is odd.
+
+ Sample Input
+9
+
+Sample Output
+*	*	*	*	*	*	*	*	*
+	*	*	*	*	*	*	*
+		*	*	*	*	*
+			*	*	*
+				*
+			*		*
+		*				*
+	*						*
+*	*	*	*	*	*	*	*	*
+
+
+
+    */
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();

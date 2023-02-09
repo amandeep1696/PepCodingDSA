@@ -3,6 +3,18 @@ package patterns;
 import java.util.Scanner;
 
 public class A21PatternM {
+    /*
+    you are given a number N and you have to print the generalized given pattern.
+for n=5
+*				*
+*	*		*	*
+*		*		*
+*				*
+*				*
+
+Constraints
+N is an odd number
+    */
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
